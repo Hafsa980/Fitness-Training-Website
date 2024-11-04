@@ -1,0 +1,294 @@
+.home {
+    text-align: center;
+  }
+  
+  .hero {
+    background-image: url('../images/fitness-image.png');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 100px 20px;
+  }
+  
+  .hero-content h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .hero-content span {
+    color: yellow;
+  }
+  
+  .hero-content p {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  .cta-button {
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: yellow;
+    color: #000;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  .features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 50px 20px;
+    gap: 20px;
+    background-color: #f0f0f0;
+  }
+  
+  .feature-card {
+    background-color: #800080;
+    color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    transition: transform 0.3s;
+  }
+  
+  .feature-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .feature-card img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+  }
+  
+  .feature-card h3 {
+    margin: 10px 0;
+    color: yellow;
+  }
+  
+  /* Purpose Section */
+.purpose {
+    background-color: #000;
+    color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .purpose h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .purpose-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .purpose-image {
+    max-width: 100%;
+    width: 300px;
+    margin-bottom: 20px;
+  }
+  
+  .purpose-text {
+    max-width: 600px;
+    text-align: left;
+  }
+  
+  .purpose-categories {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: 10px;
+  }
+  
+  .purpose-categories span {
+    background-color: #222;
+    color: #3f006c;
+    padding: 8px 12px;
+    border-radius: 20px;
+    font-size: 14px;
+  }
+  
+  /* Testimonials Section */
+  .testimonials {
+    background-color: #800080;
+    color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .testimonials h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .testimonial-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .testimonial-card {
+    background-color: #000;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 300px;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .testimonial-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .testimonial-card h3 {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  .testimonial-card p {
+    font-size: 16px;
+    margin: 10px 0;
+  }
+  
+  .rating {
+    color: gold;
+    font-size: 18px;
+  }
+
+  .work {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 50px 20px;
+    gap: 10px;
+    background-color: black;
+  }
+
+  .work-text {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px 0px;
+  }
+
+  .work-text h1{
+    color: white;
+    font-size: 34pt;
+    text-align: center;
+  }
+
+  .work-text p{
+    color: white;
+    font-size: 20pt;
+    text-align: center;
+  }
+  
+  .work-card {
+    background-color: white;
+    color: #333232;
+    border-radius: 10px;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    transition: transform 0.3s;
+  }
+  
+  .work-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .work-card img {
+    width: 130px;
+    height: 80px;
+    margin-bottom: 10px;
+  }
+  
+  .work-card h3 {
+    margin: 10px 0;
+    color: yellow;
+  }
+  
+  /* Contact Section */
+.contact {
+    background-color: #000;
+    color: #fff;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    padding: 0.8rem;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    background-color: #111;
+    color: #fff;
+  }
+  
+  .contact-form .send-button {
+    padding: 0.8rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff0;
+    color: #000;
+    cursor: pointer;
+  }
+  
+  /* Footer Section */
+  .footer {
+    background-color: linear-gradient(135deg, #0b0218, #800080);
+    color: #fff;
+    padding: 2rem;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1rem;
+    text-align: center;
+  }
+  
+  .footer-socials {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin: 1rem 0;
+  }
+  
+  .footer-socials a {
+    color: #ff0;
+    text-decoration: none;
+  }
+  
+  .footer-copy {
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 0.8rem;
+    color: #ccc;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .footer-content {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
