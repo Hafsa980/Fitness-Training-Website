@@ -2,6 +2,7 @@ import React from "react";
 import "./About.css";
 import missionImage from '../images/aboutImage2.png';
 import visionImage from '../images/aboutImage3.png';
+import footer from '../images/footer-img.png';
 
 function About() {
   return (
@@ -80,6 +81,9 @@ function About() {
             <p>+1 234 567 8901</p>
             <p>FitnessTrainingHQ@gmail.com</p>
           </div>
+          <div className="footer-image">
+            <img src={footer} alt="Footer image" />
+        </div>
         </div>
         <div className="footer-socials">
           <a href="#">Facebook</a>

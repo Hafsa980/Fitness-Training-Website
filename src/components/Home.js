@@ -10,6 +10,7 @@ import customer2 from '../images/customer2.png';
 import workout from '../images/workout.png';
 import Nutrition from '../images/nutrition.png';
 import Community from '../images/community.png';
+import footer from '../images/footer-img.png';
 
 function Home() {
   return (
@@ -162,6 +163,9 @@ function Home() {
             <p>Phone: +1 234 567 8901</p>
             <p>Location: 123 Fitness St., Wellness City</p>
           </div>
+          <div className="footer-image">
+            <img src={footer} alt="Footer image" />
+        </div>
         </div>
         <div className="footer-socials">
           <a href="#">Facebook</a>

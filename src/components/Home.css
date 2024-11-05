@@ -44,7 +44,7 @@
   }
   
   .feature-card {
-    background-color: #800080;
+    background: linear-gradient(135deg, #000, #800080);
     color: #fff;
     border-radius: 10px;
     padding: 20px;
@@ -115,7 +115,7 @@
   
   /* Testimonials Section */
   .testimonials {
-    background-color: #800080;
+    background: linear-gradient(135deg, #000, #800080);
     color: #fff;
     padding: 50px 20px;
     text-align: center;
@@ -253,17 +253,22 @@
   
   /* Footer Section */
   .footer {
-    background-color: linear-gradient(135deg, #0b0218, #800080);
-    color: #fff;
-    padding: 2rem;
+    background: linear-gradient(135deg, #000, #800080);
+    color: white;
+    padding: 40px 20px;
+    text-align: left;
   }
   
   .footer-content {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    gap: 1rem;
-    text-align: center;
+    gap: 1.5rem;
+    text-align: justify;
+  }
+
+  .footer-image {
+    width: 35%;
   }
   
   .footer-socials {

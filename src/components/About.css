@@ -113,24 +113,22 @@
   
   /* Footer Section */
   .footer {
-    background-color: #800080;
-    color: #fff;
-    padding: 2rem;
+    background: linear-gradient(135deg, #000, #800080);
+    color: white;
+    padding: 40px 20px;
+    text-align: left;
   }
   
   .footer-content {
     display: flex;
+    justify-content: space-between;
     flex-wrap: wrap;
     gap: 1.5rem;
-    justify-content: space-around;
-    text-align: center;
+    text-align: justify;
   }
-  
-  .footer-about,
-  .footer-company,
-  .footer-contact {
-    flex: 1;
-    max-width: 250px;
+
+  .footer-image {
+    width: 35%;
   }
   
   .footer-socials {
