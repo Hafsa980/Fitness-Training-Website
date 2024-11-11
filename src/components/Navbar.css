@@ -1,28 +1,71 @@
+/* Navbar container */
 .navbar {
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-    background-color: #000;
-    color: #fff;
-  }
-  
-  .navbar-logo {
-    font-size: 24px;
-    font-weight: bold;
-  }
-  
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #000;
+  color: #fff;
+}
+
+/* Logo styling */
+.navbar-logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Navbar Links */
+.navbar-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+/* Link styling */
+.navbar-links a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.navbar-links a:hover {
+  color: yellow;
+}
+
+/* Hamburger icon for mobile */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.hamburger .bar {
+  width: 25px;
+  height: 3px;
+  background-color: #fff;
+  margin: 4px 0;
+  transition: 0.3s;
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
   .navbar-links {
-    list-style: none;
+    display: none;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    background-color: #000;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px 0;
+  }
+
+  /* Show links when menu is open */
+  .navbar-links.open {
     display: flex;
-    gap: 20px;
   }
-  
-  .navbar-links a {
-    color: #fff;
-    text-decoration: none;
+
+  /* Display hamburger icon on mobile */
+  .hamburger {
+    display: flex;
   }
-  
-  .navbar-links a:hover {
-    color: yellow;
-  }
-  
+}
